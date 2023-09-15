@@ -29,7 +29,10 @@
     "@typescript-eslint/function-paren-newline": "off",
     "nonblock-statement-body-position": "off",
     "dot-notation": [0, { "allowKeywords": true }],
-    "arrow-parens": 0
+    "arrow-parens": 0,
+    // 关闭检查
+    "prettier/prettier": "off",
+    "no-empty-pattern": "off"
   },
   "overrides": [
     {
